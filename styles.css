@@ -1,0 +1,122 @@
+body {
+  margin: 0px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+.hello-below {
+  margin-top: 60px;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 3.125rem;
+  margin-bottom: 10px;
+  line-height: 2;
+  color: #66bfbf;
+}
+
+h2 {
+  font-weight: normal;
+  color: #66bfbf;
+}
+h3 {
+  color: #11999e;
+}
+a {
+  color: #11999e;
+}
+.top-container {
+  background-color: #cdf0ea;
+  /* making the position of the parent div of clouds "relative" so clouds can be positioned according to this div */
+  position: relative;
+  padding-top: 100px;
+}
+.profile1 {
+  width: 20%;
+  margin: 50px auto;
+}
+hr {
+  width: 5%;
+  border-style: dotted none none;
+  color: #eaf6f6;
+  border-width: 10px;
+}
+
+.underline {
+  text-decoration: underline;
+}
+.cloud-top {
+  position: absolute;
+  right: 450px;
+  top: 50px;
+}
+.cloud-bottom {
+  position: absolute;
+  top: 220px;
+}
+.start-para {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.25rem;
+}
+.skills-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.skill-img1 {
+  width: 25%;
+  float: left;
+  padding-right: 30px;
+}
+.skill-img2 {
+  width: 25%;
+  float: right;
+  padding-left: 30px;
+}
+p {
+  color: #40514e;
+  font-family: "Roboto", sans-serif;
+}
+
+.contact-me {
+  margin: 80px;
+}
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+.bottom-container {
+  margin-top: 100px;
+  background-color: #66bfbf;
+  padding: 50px;
+}
+
+.division {
+  padding: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
